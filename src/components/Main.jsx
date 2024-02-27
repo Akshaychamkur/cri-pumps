@@ -30,7 +30,7 @@ const Main = () => {
           </div>
           <p>Government of India has awarded the <span>"National Energy Conservation Award 2018"</span>. Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</p>
         </div>
-        
+
       </div>
       <div className="product-section">
         <p>INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION. </p>
@@ -41,8 +41,22 @@ const Main = () => {
       </div>
       <div className="service-section">
         <h3>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</h3>
-        <p>CHEMICALS | PROCESS POWER WATER | WASTE WATER OILS | GAS PHARMA SUGARS | DISTILLERIES PAPER | PULP MARINE | DEFENCE METAL | MINING FOOD | BEVERAGE PETROCHEMICAL | REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE | RESIDENTIAL</p>
-      </div>
+        <ul className='service-list'>
+          <li>CHEMICALS</li>
+          <li>PROCESS POWER WATER</li>
+          <li>WASTE WATER</li>
+          <li>OILS GAS</li>
+          <li>PHARMA</li>
+          <li>SUGARS DISTILLERIES</li>
+          <li>PAPER PULP</li>
+          <li>MARINE DEFENCE</li>
+          <li>METAL MINING</li>
+          <li>FOOD BEVERAGE</li>
+          <li>PETROCHEMICAL REFINERIES</li>
+          <li>SOLAR BUILDING HVAC</li>
+          <li>FIRE FIGHTING</li>
+          <li>AGRICULTURE RESIDENTIAL</li>
+        </ul>      </div>
       <div className="footer-section">
         <div className="call">
           <CallIcon />
